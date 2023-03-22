@@ -7,7 +7,6 @@
     <artifactId>chatbot-api</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
     <modules>
         <module>chatbot-api-domain</module>
         <module>chatbot-api-application</module>
@@ -84,6 +83,11 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>5.8.10</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.26</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
